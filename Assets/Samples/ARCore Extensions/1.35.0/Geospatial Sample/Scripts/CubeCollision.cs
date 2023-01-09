@@ -4,16 +4,31 @@ using UnityEngine;
 
 public class CubeCollision : MonoBehaviour
 {
-    // Start is called before the first frame update
+    Renderer CubeRenderer;
+    Vector3 PlayerForwardVector;
+    Vector3 CubeForwardVector;
+    bool isComparingVector=false;
+    
     void Start()
     {
-        
+        CubeRenderer=GetComponent<Renderer>();
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+        if(isComparingVector)
+        {
+            //if the angle between two vectors is less than 30 degrees, cube turns white
+            if(Vector3.Dot(PlayerForwardVector, CubeForwardVector) > 0.85)
+            {
+                CubeRenderer.material.color = new Color(255, 255, 255);
+            }
+            else
+            {
+                CubeRenderer.material.color = new Color(0, 255, 0);
+            }
+        }
     }
 
 
@@ -21,15 +36,20 @@ public class CubeCollision : MonoBehaviour
     {
         if (other.tag == "Player")
         {
-            GetComponent<Renderer>().material.color = new Color(0, 255, 0);
+            //player gets into collider, cube turns green
+            CubeRenderer.material.color = new Color(0, 255, 0);
+            PlayerForwardVector = other.transform.forward;
+            CubeForwardVector = this.transform.forward;
+            isComparingVector = true;
         }
     }
 
     private void OnTriggerExit(Collider other)
     {
         if (other.tag == "Player")
-        {
-            GetComponent<Renderer>().material.color = new Color(255, 0, 0);
+        {    //player gets out of collider, cube turns red
+            CubeRenderer.material.color = new Color(255, 0, 0);
+            isComparingVector = false;
         }
     }
 }

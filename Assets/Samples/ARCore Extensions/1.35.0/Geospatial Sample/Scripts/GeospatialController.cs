@@ -32,6 +32,7 @@ namespace Google.XR.ARCoreExtensions.Samples.Geospatial
 
 #if UNITY_ANDROID
     using UnityEngine.Android;
+    using UnityEditor;
 #endif
 
     /// <summary>
@@ -41,6 +42,14 @@ namespace Google.XR.ARCoreExtensions.Samples.Geospatial
         Justification = "Bypass source check.")]
     public class GeospatialController : MonoBehaviour
     {
+
+        [Header("Anchor Location")]
+        public double MyLatitude;
+        public double MyLongitude;
+        public double MyAltitude;
+        private Quaternion MyQuaternion=new Quaternion(0.6f,0.6f,-0.4f,-0.4f);
+        public GameObject CubePrefab;
+
         [Header("AR Components")]
 
         /// <summary>
@@ -526,6 +535,9 @@ namespace Google.XR.ARCoreExtensions.Samples.Geospatial
                 }
 
                 ResolveHistory();
+
+                ARGeospatialAnchor anchor = ARAnchorManagerExtensions.AddAnchor(AnchorManager, MyLatitude, MyLongitude, MyAltitude, MyQuaternion);
+                Instantiate(CubePrefab, anchor.transform);
             }
             else if (Input.touchCount > 0 && Input.GetTouch(0).phase == TouchPhase.Began
                 && !EventSystem.current.IsPointerOverGameObject(Input.GetTouch(0).fingerId))

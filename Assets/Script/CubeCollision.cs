@@ -25,7 +25,9 @@ public class CubeCollision : MonoBehaviour
 
     void Update()
     {
-        isOverlapping();
+        if(isOverlapping())
+            enterRange.Invoke();
+        
         GeospatialManager.Instance.DebugDot(dotProduct);
 
     }

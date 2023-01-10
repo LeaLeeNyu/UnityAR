@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f993fd56ba59cda4d847309f1cb63320, type: 3}
-  m_Name: HomeAnchorDataSO
+  m_Name: HomeFinishAnchorDataSO
   m_EditorClassIdentifier: 
   latitude: 40.612113
   longitude: -74.004431

@@ -31,7 +31,6 @@ public class PuzzleStartAnchor : MonoBehaviour
     private void OnGeoInitCompleted()
     {
         GeospatialManager.Instance.InitCompleted.RemoveListener(OnGeoInitCompleted);
-        _run = true;
 
         UnityEngine.Quaternion quaternion = new UnityEngine.Quaternion(anchorData.quaternion.x, anchorData.quaternion.y, anchorData.quaternion.z, anchorData.quaternion.w);
         ARGeospatialAnchor anchor = ARAnchorManagerExtensions.AddAnchor(anchorManager, anchorData.latitude, anchorData.longitude, anchorData.altitude, quaternion);

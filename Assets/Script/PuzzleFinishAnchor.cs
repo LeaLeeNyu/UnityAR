@@ -1,9 +1,15 @@
+using Google.XR.ARCoreExtensions;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.XR.ARFoundation;
 
 public class PuzzleFinishAnchor : MonoBehaviour
 {
+    [SerializeField] private ARAnchorManager anchorManager;
+    [SerializeField] private AnchorDataSO anchorData;
+    [SerializeField] private GameObject anchorPrefab;
+
     private void OnEnable()
     {
         CubeCollision.enterRange.AddListener(InstantiateFinishAnchor);
@@ -16,6 +22,9 @@ public class PuzzleFinishAnchor : MonoBehaviour
 
     private void InstantiateFinishAnchor()
     {
-
+        // Instantiate the model 
+        UnityEngine.Quaternion quaternion = new UnityEngine.Quaternion(anchorData.quaternion.x, anchorData.quaternion.y, anchorData.quaternion.z, anchorData.quaternion.w);
+        ARGeospatialAnchor anchor = ARAnchorManagerExtensions.AddAnchor(anchorManager, anchorData.latitude, anchorData.longitude, anchorData.altitude, quaternion);
+        Instantiate(anchorPrefab, anchor.transform);
     }
 }

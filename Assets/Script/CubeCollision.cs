@@ -25,8 +25,12 @@ public class CubeCollision : MonoBehaviour
 
     void Update()
     {
-        if(isOverlapping())
+        if (isOverlapping())
+        {
             enterRange.Invoke();
+            GameObject.Destroy(this);
+        }
+            
         
         GeospatialManager.Instance.DebugDot(dotProduct);
 
@@ -63,7 +67,7 @@ public class CubeCollision : MonoBehaviour
             dotProduct = Vector3.Dot(PlayerForwardVector, CubeForwardVector);
 
             //if the angle between two vectors is less than 30 degrees, cube turns white
-            if (_inRange && dotProduct > 0.8)
+            if (_inRange && dotProduct > 0.9)
             {
                 CubeRenderer.material.color = new Color(255, 255, 255);
                 return true;

@@ -1776,6 +1776,7 @@ MonoBehaviour:
   anchorManager: {fileID: 1069495238}
   anchorData: {fileID: 11400000, guid: 1110bea11b8d59745b76251f8af56cc3, type: 2}
   anchorPrefab: {fileID: 1498900346094290928, guid: 6080423edad68aa46ab50a1d1df1c047, type: 3}
+  debugText: {fileID: 417825616}
 --- !u!4 &1109443977
 Transform:
   m_ObjectHideFlags: 0

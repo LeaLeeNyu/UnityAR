@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<<< HEAD:Assets/ArtAsset/UI/BarBg.png.meta
 guid: 8a8000c398e4dd046bc76cffef128184
+========
+guid: 462546e5dfaa08148804ecbf1d95cdee
+>>>>>>>> c7547d633f62f56a3567e296871c828156868179:Assets/ArtAsset/UI/bg.png.meta
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}

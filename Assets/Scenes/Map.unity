@@ -39,7 +39,11 @@ RenderSettings:
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
+=======
+  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
+>>>>>>> c7547d633f62f56a3567e296871c828156868179
 =======
   m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
 >>>>>>> c7547d633f62f56a3567e296871c828156868179
@@ -128,7 +132,11 @@ NavMeshSettings:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!1 &132377992
+=======
+--- !u!1 &430136313
+>>>>>>> c7547d633f62f56a3567e296871c828156868179
 =======
 --- !u!1 &430136313
 >>>>>>> c7547d633f62f56a3567e296871c828156868179
@@ -139,6 +147,7 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
+<<<<<<< HEAD
 <<<<<<< HEAD
   - component: {fileID: 132377996}
   - component: {fileID: 132377995}
@@ -748,6 +757,10 @@ GameObject:
   - component: {fileID: 430136315}
   - component: {fileID: 430136314}
 >>>>>>> c7547d633f62f56a3567e296871c828156868179
+=======
+  - component: {fileID: 430136315}
+  - component: {fileID: 430136314}
+>>>>>>> c7547d633f62f56a3567e296871c828156868179
   m_Layer: 0
   m_Name: Directional Light
   m_TagString: Untagged
@@ -756,7 +769,11 @@ GameObject:
   m_StaticEditorFlags: 0
   m_IsActive: 1
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!108 &1692403919
+=======
+--- !u!108 &430136314
+>>>>>>> c7547d633f62f56a3567e296871c828156868179
 =======
 --- !u!108 &430136314
 >>>>>>> c7547d633f62f56a3567e296871c828156868179
@@ -766,7 +783,11 @@ Light:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_GameObject: {fileID: 1692403918}
+=======
+  m_GameObject: {fileID: 430136313}
+>>>>>>> c7547d633f62f56a3567e296871c828156868179
 =======
   m_GameObject: {fileID: 430136313}
 >>>>>>> c7547d633f62f56a3567e296871c828156868179
@@ -826,7 +847,11 @@ Light:
   m_ShadowRadius: 0
   m_ShadowAngle: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!4 &1692403920
+=======
+--- !u!4 &430136315
+>>>>>>> c7547d633f62f56a3567e296871c828156868179
 =======
 --- !u!4 &430136315
 >>>>>>> c7547d633f62f56a3567e296871c828156868179
@@ -836,7 +861,11 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_GameObject: {fileID: 1692403918}
+=======
+  m_GameObject: {fileID: 430136313}
+>>>>>>> c7547d633f62f56a3567e296871c828156868179
 =======
   m_GameObject: {fileID: 430136313}
 >>>>>>> c7547d633f62f56a3567e296871c828156868179
@@ -849,7 +878,11 @@ Transform:
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!1 &1971256962
+=======
+--- !u!1 &787969173
+>>>>>>> c7547d633f62f56a3567e296871c828156868179
 =======
 --- !u!1 &787969173
 >>>>>>> c7547d633f62f56a3567e296871c828156868179
@@ -861,9 +894,15 @@ GameObject:
   serializedVersion: 6
   m_Component:
 <<<<<<< HEAD
+<<<<<<< HEAD
   - component: {fileID: 1971256965}
   - component: {fileID: 1971256964}
   - component: {fileID: 1971256963}
+=======
+  - component: {fileID: 787969176}
+  - component: {fileID: 787969175}
+  - component: {fileID: 787969174}
+>>>>>>> c7547d633f62f56a3567e296871c828156868179
 =======
   - component: {fileID: 787969176}
   - component: {fileID: 787969175}
@@ -877,7 +916,11 @@ GameObject:
   m_StaticEditorFlags: 0
   m_IsActive: 1
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!81 &1971256963
+=======
+--- !u!81 &787969174
+>>>>>>> c7547d633f62f56a3567e296871c828156868179
 =======
 --- !u!81 &787969174
 >>>>>>> c7547d633f62f56a3567e296871c828156868179
@@ -887,9 +930,15 @@ AudioListener:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_GameObject: {fileID: 1971256962}
   m_Enabled: 1
 --- !u!20 &1971256964
+=======
+  m_GameObject: {fileID: 787969173}
+  m_Enabled: 1
+--- !u!20 &787969175
+>>>>>>> c7547d633f62f56a3567e296871c828156868179
 =======
   m_GameObject: {fileID: 787969173}
   m_Enabled: 1
@@ -901,7 +950,11 @@ Camera:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_GameObject: {fileID: 1971256962}
+=======
+  m_GameObject: {fileID: 787969173}
+>>>>>>> c7547d633f62f56a3567e296871c828156868179
 =======
   m_GameObject: {fileID: 787969173}
 >>>>>>> c7547d633f62f56a3567e296871c828156868179
@@ -942,7 +995,11 @@ Camera:
   m_StereoConvergence: 10
   m_StereoSeparation: 0.022
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!4 &1971256965
+=======
+--- !u!4 &787969176
+>>>>>>> c7547d633f62f56a3567e296871c828156868179
 =======
 --- !u!4 &787969176
 >>>>>>> c7547d633f62f56a3567e296871c828156868179
@@ -952,7 +1009,11 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_GameObject: {fileID: 1971256962}
+=======
+  m_GameObject: {fileID: 787969173}
+>>>>>>> c7547d633f62f56a3567e296871c828156868179
 =======
   m_GameObject: {fileID: 787969173}
 >>>>>>> c7547d633f62f56a3567e296871c828156868179

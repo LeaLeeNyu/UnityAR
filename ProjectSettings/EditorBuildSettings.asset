@@ -11,9 +11,12 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/DemoScene.unity
     guid: c11ea6004cf32294d89ead2c95c19f5e
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
   - enabled: 1
-    path: Assets/Scenes/Map.unity
-    guid: 1d1b45ada5ebfe343bd48e54ad6f5500
+    path: Assets/Scenes/Sihan Scenes/Map.unity
+    guid: ba3ab4afcd3f1c245913ddf8c500d7cc
   m_configObjects:
     UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: 0b4f4b28d703b024abe14d3ceee40d9a, type: 2}
     UnityEditor.XR.ARKit.ARKitSettings: {fileID: 11400000, guid: 1b3b5d46a18cfc04498c1ace4be1ef9e, type: 2}

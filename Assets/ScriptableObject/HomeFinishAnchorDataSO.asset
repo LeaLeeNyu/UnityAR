@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f993fd56ba59cda4d847309f1cb63320, type: 3}
   m_Name: HomeFinishAnchorDataSO
   m_EditorClassIdentifier: 
-  latitude: 40.612113
-  longitude: -74.004431
-  altitude: -24.41
-  quaternion: {x: 0.6, y: 0.6, z: -0.4, w: -0.4}
+  latitude: 40.6122776853675
+  longitude: -74.0040414741466
+  altitude: -10.457675348036
+  quaternion: {x: 0.05966, y: -0.27087, z: -0.08054, w: -0.95738}

@@ -14,12 +14,12 @@ public class PuzzleFinishAnchor : MonoBehaviour
 
     private void OnEnable()
     {
-        CubeCollision.enterRange.AddListener(InstantiateFinishAnchor);
+        CheckPosManager.enterRange.AddListener(InstantiateFinishAnchor);
     }
 
     private void OnDisable()
     {
-        CubeCollision.enterRange.RemoveListener(InstantiateFinishAnchor);
+        CheckPosManager.enterRange.RemoveListener(InstantiateFinishAnchor);
     }
 
     private void InstantiateFinishAnchor()

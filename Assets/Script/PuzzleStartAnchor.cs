@@ -17,8 +17,6 @@ public class PuzzleStartAnchor : MonoBehaviour
     //Debug
     [SerializeField] private Text anchorDebug;
 
-    private bool _run = false;
-
     private void Start()
     {
         // if Geospatial finish initialize 
@@ -36,6 +34,9 @@ public class PuzzleStartAnchor : MonoBehaviour
         ARGeospatialAnchor anchor = ARAnchorManagerExtensions.AddAnchor(anchorManager, anchorData.latitude, anchorData.longitude, anchorData.altitude, quaternion);
         Instantiate(anchorPrefab, anchor.transform);
         anchorDebug.text = "Anchor: Instantiate Finished!";
+
+        //GeoInstantiated = true;
+        //StartCoroutine(PlaceTerrainAnchor());        
     }
 
 }

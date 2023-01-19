@@ -2173,11 +2173,11 @@ MonoBehaviour:
   ErrorStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  _minimumHorizontalAccuracy: 10
-  _minimumYawAccuracy: 15
-  _minimumVerticalAccuracy: 1.5
-  _targetHorizontalAccuracy: 1
-  _targetYawAccuracy: 2
+  _minimumHorizontalAccuracy: 1
+  _minimumYawAccuracy: 1
+  _minimumVerticalAccuracy: 1
+  _targetHorizontalAccuracy: 0.1
+  _targetYawAccuracy: 0.2
   _targetVerticalAccuracy: 0.5
   _initTime: 3
   errorMassage: {fileID: 1809549249}

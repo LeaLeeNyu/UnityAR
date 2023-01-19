@@ -3,7 +3,9 @@
     public class MarkerClick : MonoBehaviour
     {
     public GameObject BridgeDetailPage;
-        private void Start()
+    public GameObject ChristmasTreeDetailPage;
+    public GameObject ParkDetailPage;
+    private void Start()
         {
             OnlineMaps map = OnlineMaps.instance;
 
@@ -19,8 +21,16 @@
         {
         // Show detail page
         if (marker.label == "BrooklynBridge") {
-            BridgeDetailPage.SetActive(true);
+            BridgeDetailPage.GetComponent<UIPanalMovement>().MoveUp();
         };
-       
-        }
+
+        if (marker.label == "ChristmasTree")
+        {
+            ChristmasTreeDetailPage.GetComponent<UIPanalMovement>().MoveUp();
+        };
+        if (marker.label == "Park")
+        {
+            ParkDetailPage.GetComponent<UIPanalMovement>().MoveUp();
+        };
+    }
     }

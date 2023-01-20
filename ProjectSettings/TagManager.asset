@@ -5,6 +5,7 @@ TagManager:
   serializedVersion: 2
   tags:
   - FirstAnchor
+  - Raycastable
   layers:
   - Default
   - TransparentFX

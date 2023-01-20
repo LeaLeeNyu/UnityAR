@@ -12,16 +12,6 @@ public class PuzzleFinishAnchor : MonoBehaviour
     [SerializeField] private GameObject anchorPrefab;
     [SerializeField] private Text debugText;
 
-    private void OnEnable()
-    {
-        CheckPosManager.enterRange.AddListener(InstantiateFinishAnchor);
-    }
-
-    private void OnDisable()
-    {
-        CheckPosManager.enterRange.RemoveListener(InstantiateFinishAnchor);
-    }
-
     private void InstantiateFinishAnchor()
     {
         // Instantiate the model 

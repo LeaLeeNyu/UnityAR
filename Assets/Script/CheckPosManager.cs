@@ -19,13 +19,13 @@ public class CheckPosManager : MonoBehaviour
     //Debug
     [SerializeField] private Text anchorDebug;
 
-    //When players enter the range, invoke the enter event
-    [HideInInspector] public static UnityEvent enterRange;
 
     //Model 
     [SerializeField] private ARAnchorManager anchorManager;
     [SerializeField] private AnchorDataSO anchorData;
     [SerializeField] private GameObject anchorPrefab;
+
+    [HideInInspector] public bool finishPuzzle =false;
 
     public void PlayerTakePhoto()
     {
@@ -62,6 +62,7 @@ public class CheckPosManager : MonoBehaviour
             UIOpen = true;
 
             GameObject.Destroy(anchorScript.gameObject);
+            finishPuzzle = true;
             //ModelInstantiate();
             anchorDebug.text = "compelet photo & Instantiate model";           
         }

@@ -35,11 +35,13 @@ public class PuzzleStartAnchor : MonoBehaviour
         UnityEngine.Quaternion quaternion = new UnityEngine.Quaternion(anchorData.quaternion.x, anchorData.quaternion.y, anchorData.quaternion.z, anchorData.quaternion.w);
         ARGeospatialAnchor anchor = ARAnchorManagerExtensions.AddAnchor(anchorManager, anchorData.latitude, anchorData.longitude, anchorData.altitude, quaternion);
 
-        UnityEngine.Quaternion quaternionModel = new UnityEngine.Quaternion(moedelData.quaternion.x, moedelData.quaternion.y, moedelData.quaternion.z, moedelData.quaternion.w);
-        ARGeospatialAnchor anchorModel = ARAnchorManagerExtensions.AddAnchor(anchorManager, moedelData.latitude, moedelData.longitude, moedelData.altitude, quaternion);
+        //UnityEngine.Quaternion quaternionModel = new UnityEngine.Quaternion(moedelData.quaternion.x, moedelData.quaternion.y, moedelData.quaternion.z, moedelData.quaternion.w);
+        //ARGeospatialAnchor anchorModel = ARAnchorManagerExtensions.AddAnchor(anchorManager, moedelData.latitude, moedelData.longitude, moedelData.altitude, quaternion);
 
         Instantiate(anchorPrefab, anchor.transform);
-        Instantiate(modelPrefab, anchorModel.transform);
+
+        //GameObject model = Instantiate(modelPrefab, anchorModel.transform);
+        //model.transform.Rotate(0, 180, -90);
 
         anchorDebug.text = "Anchor: Instantiate Finished!";
 

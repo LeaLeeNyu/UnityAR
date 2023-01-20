@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f993fd56ba59cda4d847309f1cb63320, type: 3}
+  m_Name: AnchorTest
+  m_EditorClassIdentifier: 
+  latitude: 40.612235
+  longitude: -74.00435
+  altitude: -19.50002
+  quaternion: {x: 0.0339, y: -0.98387, z: -0.17488, w: 0.0162}

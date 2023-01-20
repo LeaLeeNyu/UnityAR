@@ -21,9 +21,9 @@ public class CheckPosManager : MonoBehaviour
 
 
     //Model 
-    [SerializeField] private ARAnchorManager anchorManager;
-    [SerializeField] private AnchorDataSO anchorData;
-    [SerializeField] private GameObject anchorPrefab;
+    //[SerializeField] private ARAnchorManager anchorManager;
+    //[SerializeField] private AnchorDataSO anchorData;
+    //[SerializeField] private GameObject anchorPrefab;
 
     [HideInInspector] public bool finishPuzzle =false;
 

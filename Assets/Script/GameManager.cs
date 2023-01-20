@@ -34,4 +34,14 @@ public class GameManager : Singleton<GameManager>
     {
         SceneManager.LoadScene("LoveLock_Test");
     }
+
+    public void ToParkLevel()
+    {
+        SceneManager.LoadScene("Park_Test");
+    }
+
+    public void ToChristmasLevel()
+    {
+        SceneManager.LoadScene("Christmas_Test");
+    }
 }

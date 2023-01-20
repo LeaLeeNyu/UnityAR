@@ -62,7 +62,7 @@ public class CheckPosManager : MonoBehaviour
             UIOpen = true;
 
             GameObject.Destroy(anchorScript.gameObject);
-            ModelInstantiate();
+            //ModelInstantiate();
             anchorDebug.text = "compelet photo & Instantiate model";           
         }
         else

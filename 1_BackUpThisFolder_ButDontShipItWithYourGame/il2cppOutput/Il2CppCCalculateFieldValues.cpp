@@ -38004,10 +38004,14 @@ struct PuzzleStartAnchor_tE5E7645B2C679508AF5AECAC80649FF481077858  : public Mon
 	ARAnchorManager_tF68C46300BD6F2E83E3360BF9297C3C50F5D6B3E* ___anchorManager_4;
 	// AnchorDataSO PuzzleStartAnchor::anchorData
 	AnchorDataSO_t483A229FBE6E2396343E676897A7D4E2DC0929F6* ___anchorData_5;
+	// AnchorDataSO PuzzleStartAnchor::moedelData
+	AnchorDataSO_t483A229FBE6E2396343E676897A7D4E2DC0929F6* ___moedelData_6;
 	// UnityEngine.GameObject PuzzleStartAnchor::anchorPrefab
-	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___anchorPrefab_6;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___anchorPrefab_7;
+	// UnityEngine.GameObject PuzzleStartAnchor::modelPrefab
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___modelPrefab_8;
 	// UnityEngine.UI.Text PuzzleStartAnchor::anchorDebug
-	Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* ___anchorDebug_7;
+	Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* ___anchorDebug_9;
 };
 
 // UnityEngine.UIElements.RadioButtonGroup
@@ -45242,9 +45246,9 @@ IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable2917[34] =
 IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable2918[4] = 
 {
 	static_cast<int32_t>(offsetof(PuzzleFinishAnchor_t3E6A013483200AE5A5BC15D87EBA82EE50F5B7AE, ___anchorManager_4)),static_cast<int32_t>(offsetof(PuzzleFinishAnchor_t3E6A013483200AE5A5BC15D87EBA82EE50F5B7AE, ___anchorData_5)),static_cast<int32_t>(offsetof(PuzzleFinishAnchor_t3E6A013483200AE5A5BC15D87EBA82EE50F5B7AE, ___anchorPrefab_6)),static_cast<int32_t>(offsetof(PuzzleFinishAnchor_t3E6A013483200AE5A5BC15D87EBA82EE50F5B7AE, ___debugText_7)),};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable2919[4] = 
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable2919[6] = 
 {
-	static_cast<int32_t>(offsetof(PuzzleStartAnchor_tE5E7645B2C679508AF5AECAC80649FF481077858, ___anchorManager_4)),static_cast<int32_t>(offsetof(PuzzleStartAnchor_tE5E7645B2C679508AF5AECAC80649FF481077858, ___anchorData_5)),static_cast<int32_t>(offsetof(PuzzleStartAnchor_tE5E7645B2C679508AF5AECAC80649FF481077858, ___anchorPrefab_6)),static_cast<int32_t>(offsetof(PuzzleStartAnchor_tE5E7645B2C679508AF5AECAC80649FF481077858, ___anchorDebug_7)),};
+	static_cast<int32_t>(offsetof(PuzzleStartAnchor_tE5E7645B2C679508AF5AECAC80649FF481077858, ___anchorManager_4)),static_cast<int32_t>(offsetof(PuzzleStartAnchor_tE5E7645B2C679508AF5AECAC80649FF481077858, ___anchorData_5)),static_cast<int32_t>(offsetof(PuzzleStartAnchor_tE5E7645B2C679508AF5AECAC80649FF481077858, ___moedelData_6)),static_cast<int32_t>(offsetof(PuzzleStartAnchor_tE5E7645B2C679508AF5AECAC80649FF481077858, ___anchorPrefab_7)),static_cast<int32_t>(offsetof(PuzzleStartAnchor_tE5E7645B2C679508AF5AECAC80649FF481077858, ___modelPrefab_8)),static_cast<int32_t>(offsetof(PuzzleStartAnchor_tE5E7645B2C679508AF5AECAC80649FF481077858, ___anchorDebug_9)),};
 IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable2920[6] = 
 {
 	static_cast<int32_t>(offsetof(CalculateDistance_tA8C1BF168B2C9C5F448344674E510192C26E9790, ___anchorData_4)),static_cast<int32_t>(offsetof(CalculateDistance_tA8C1BF168B2C9C5F448344674E510192C26E9790, ___notification_5)),static_cast<int32_t>(offsetof(CalculateDistance_tA8C1BF168B2C9C5F448344674E510192C26E9790, ___debugText_6)),static_cast<int32_t>(offsetof(CalculateDistance_tA8C1BF168B2C9C5F448344674E510192C26E9790, ___userLocation_7)),static_cast<int32_t>(offsetof(CalculateDistance_tA8C1BF168B2C9C5F448344674E510192C26E9790, ___anchorCoordinates_8)),static_cast<int32_t>(offsetof(CalculateDistance_tA8C1BF168B2C9C5F448344674E510192C26E9790, ___hasMoved_9)),};

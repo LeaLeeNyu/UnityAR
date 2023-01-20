@@ -9,6 +9,7 @@ public class CalculateDistance : MonoBehaviour
    [SerializeField] private AnchorDataSO[] anchorData;
     [SerializeField] private GameObject notification;
     [SerializeField] TMP_Text debugText;
+    [SerializeField] private GameObject[] notifyUI;
 
     Vector2 userLocation;
     Vector2[] anchorCoordinates;
@@ -26,10 +27,13 @@ public class CalculateDistance : MonoBehaviour
 
     void Update()
     {
-        //if(Input.GetKeyDown("space") && hasMoved == false) {
-            //notification.GetComponent<UIPanalMovement>().MoveDown();
-           // hasMoved = true;
-       // }
+
+#if UNITY_EDITOR
+        if(Input.GetKeyDown("space") && hasMoved == false) {
+            notification.GetComponent<UIPanalMovement>().MoveDown();
+            hasMoved = true;
+        }
+#endif
 
         if(Input.location.status == LocationServiceStatus.Running&&hasMoved==false)
         {
@@ -41,8 +45,11 @@ public class CalculateDistance : MonoBehaviour
                 //debugText.text = distance.ToString();
                 if (distance < 0.005f)
                 {
-                    notification.GetComponent<UIPanalMovement>().MoveDown();
+                    //notifyUI[i].SetActive(true);
+                    notifyUI[i].GetComponent<UIPanalMovement>().MoveDown();
                     hasMoved = true;
+
+                    break;
                 }
             }
         }

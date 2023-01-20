@@ -248,7 +248,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: -1.13}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
 --- !u!223 &4173558018230057562
@@ -489,7 +489,7 @@ GameObject:
   - component: {fileID: 6033758347891467372}
   m_Layer: 0
   m_Name: LoveLock
-  m_TagString: Untagged
+  m_TagString: Raycastable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -573,7 +573,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: a8fde8a9b9667634b8123c0b6ed550ad, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.0573695
+      value: -0.072630525
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: a8fde8a9b9667634b8123c0b6ed550ad, type: 3}
       propertyPath: m_LocalPosition.z
@@ -643,7 +643,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 440a431558ff3a34a9bbf47d8bd1ff67, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.458
+      value: -1.5879999
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 440a431558ff3a34a9bbf47d8bd1ff67, type: 3}
       propertyPath: m_LocalPosition.z
@@ -778,7 +778,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 0d0add4e211ecf14a988b5af59b19f1c, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.25319055
+      value: -1.3831905
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 0d0add4e211ecf14a988b5af59b19f1c, type: 3}
       propertyPath: m_LocalPosition.z

@@ -2749,7 +2749,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1111687980
 RectTransform:
   m_ObjectHideFlags: 0
@@ -3419,6 +3419,7 @@ MonoBehaviour:
   _screenTapLowerCutoff: 0.15
   checkPosManager: {fileID: 1300993473}
   ARCamera: {fileID: 1831444189}
+  triggerName: Leon_01
   inputDebug: {fileID: 153548119}
 --- !u!1 &1345168081
 GameObject:

@@ -35785,12 +35785,14 @@ struct CalculateDistance_tA8C1BF168B2C9C5F448344674E510192C26E9790  : public Mon
 	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___notification_5;
 	// TMPro.TMP_Text CalculateDistance::debugText
 	TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* ___debugText_6;
+	// UnityEngine.GameObject[] CalculateDistance::notifyUI
+	GameObjectU5BU5D_tFF67550DFCE87096D7A3734EA15B75896B2722CF* ___notifyUI_7;
 	// UnityEngine.Vector2 CalculateDistance::userLocation
-	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___userLocation_7;
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___userLocation_8;
 	// UnityEngine.Vector2[] CalculateDistance::anchorCoordinates
-	Vector2U5BU5D_tFEBBC94BCC6C9C88277BA04047D2B3FDB6ED7FDA* ___anchorCoordinates_8;
+	Vector2U5BU5D_tFEBBC94BCC6C9C88277BA04047D2B3FDB6ED7FDA* ___anchorCoordinates_9;
 	// System.Boolean CalculateDistance::hasMoved
-	bool ___hasMoved_9;
+	bool ___hasMoved_10;
 };
 
 // InfinityCode.OnlineMapsExamples.ChangeMarkerTextureExample
@@ -38067,8 +38069,10 @@ struct SelectObject_t6BE07D96A1EAEBC260BB098BC2683BE6B2F4FA40  : public MonoBeha
 	CheckPosManager_t3ABADA88FC1149927403910B8F701F597275BABC* ___checkPosManager_7;
 	// UnityEngine.Camera SelectObject::ARCamera
 	Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* ___ARCamera_8;
+	// System.String SelectObject::triggerName
+	String_t* ___triggerName_9;
 	// UnityEngine.UI.Text SelectObject::inputDebug
-	Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* ___inputDebug_9;
+	Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* ___inputDebug_10;
 };
 
 // System.Reflection.SignatureArrayType
@@ -45256,12 +45260,12 @@ IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable2921[6] =
 IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable2922[2] = 
 {
 	static_cast<int32_t>(offsetof(RaycastableObject_tF0CC3FBC8760020069AC257178F8CAAAC3C1F5C4, ___infoPanel_4)),static_cast<int32_t>(offsetof(RaycastableObject_tF0CC3FBC8760020069AC257178F8CAAAC3C1F5C4, ___levelInfo_5)),};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable2923[6] = 
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable2923[7] = 
 {
-	static_cast<int32_t>(offsetof(SelectObject_t6BE07D96A1EAEBC260BB098BC2683BE6B2F4FA40, ____touchPoint_4)),static_cast<int32_t>(offsetof(SelectObject_t6BE07D96A1EAEBC260BB098BC2683BE6B2F4FA40, ____touchedObject_5)),static_cast<int32_t>(offsetof(SelectObject_t6BE07D96A1EAEBC260BB098BC2683BE6B2F4FA40, ____screenTapLowerCutoff_6)),static_cast<int32_t>(offsetof(SelectObject_t6BE07D96A1EAEBC260BB098BC2683BE6B2F4FA40, ___checkPosManager_7)),static_cast<int32_t>(offsetof(SelectObject_t6BE07D96A1EAEBC260BB098BC2683BE6B2F4FA40, ___ARCamera_8)),static_cast<int32_t>(offsetof(SelectObject_t6BE07D96A1EAEBC260BB098BC2683BE6B2F4FA40, ___inputDebug_9)),};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable2924[6] = 
+	static_cast<int32_t>(offsetof(SelectObject_t6BE07D96A1EAEBC260BB098BC2683BE6B2F4FA40, ____touchPoint_4)),static_cast<int32_t>(offsetof(SelectObject_t6BE07D96A1EAEBC260BB098BC2683BE6B2F4FA40, ____touchedObject_5)),static_cast<int32_t>(offsetof(SelectObject_t6BE07D96A1EAEBC260BB098BC2683BE6B2F4FA40, ____screenTapLowerCutoff_6)),static_cast<int32_t>(offsetof(SelectObject_t6BE07D96A1EAEBC260BB098BC2683BE6B2F4FA40, ___checkPosManager_7)),static_cast<int32_t>(offsetof(SelectObject_t6BE07D96A1EAEBC260BB098BC2683BE6B2F4FA40, ___ARCamera_8)),static_cast<int32_t>(offsetof(SelectObject_t6BE07D96A1EAEBC260BB098BC2683BE6B2F4FA40, ___triggerName_9)),static_cast<int32_t>(offsetof(SelectObject_t6BE07D96A1EAEBC260BB098BC2683BE6B2F4FA40, ___inputDebug_10)),};
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable2924[7] = 
 {
-	static_cast<int32_t>(offsetof(CalculateDistance_tA8C1BF168B2C9C5F448344674E510192C26E9790, ___anchorData_4)),static_cast<int32_t>(offsetof(CalculateDistance_tA8C1BF168B2C9C5F448344674E510192C26E9790, ___notification_5)),static_cast<int32_t>(offsetof(CalculateDistance_tA8C1BF168B2C9C5F448344674E510192C26E9790, ___debugText_6)),static_cast<int32_t>(offsetof(CalculateDistance_tA8C1BF168B2C9C5F448344674E510192C26E9790, ___userLocation_7)),static_cast<int32_t>(offsetof(CalculateDistance_tA8C1BF168B2C9C5F448344674E510192C26E9790, ___anchorCoordinates_8)),static_cast<int32_t>(offsetof(CalculateDistance_tA8C1BF168B2C9C5F448344674E510192C26E9790, ___hasMoved_9)),};
+	static_cast<int32_t>(offsetof(CalculateDistance_tA8C1BF168B2C9C5F448344674E510192C26E9790, ___anchorData_4)),static_cast<int32_t>(offsetof(CalculateDistance_tA8C1BF168B2C9C5F448344674E510192C26E9790, ___notification_5)),static_cast<int32_t>(offsetof(CalculateDistance_tA8C1BF168B2C9C5F448344674E510192C26E9790, ___debugText_6)),static_cast<int32_t>(offsetof(CalculateDistance_tA8C1BF168B2C9C5F448344674E510192C26E9790, ___notifyUI_7)),static_cast<int32_t>(offsetof(CalculateDistance_tA8C1BF168B2C9C5F448344674E510192C26E9790, ___userLocation_8)),static_cast<int32_t>(offsetof(CalculateDistance_tA8C1BF168B2C9C5F448344674E510192C26E9790, ___anchorCoordinates_9)),static_cast<int32_t>(offsetof(CalculateDistance_tA8C1BF168B2C9C5F448344674E510192C26E9790, ___hasMoved_10)),};
 IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable2925[3] = 
 {
 	static_cast<int32_t>(offsetof(UIPanalMovement_t4C89994ABC0D4948736BA5F9F66EC66D3A02F256, ___canvas_4)),static_cast<int32_t>(offsetof(UIPanalMovement_t4C89994ABC0D4948736BA5F9F66EC66D3A02F256, ___canvasRectTransform_5)),static_cast<int32_t>(offsetof(UIPanalMovement_t4C89994ABC0D4948736BA5F9F66EC66D3A02F256, ___rectTransform_6)),};

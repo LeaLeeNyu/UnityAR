@@ -56,7 +56,7 @@ public class SelectObject : MonoBehaviour
         if (Physics.Raycast(ray, out hit))
         {
             _touchedObject = hit.collider.gameObject;
-            inputDebug.text = hit.collider.gameObject.tag;
+            inputDebug.text = hit.collider.gameObject.name;
 
             if (_touchedObject.name == triggerName)
             {                

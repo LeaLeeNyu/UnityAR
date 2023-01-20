@@ -29,4 +29,9 @@ public class GameManager : Singleton<GameManager>
     {
         SceneManager.LoadScene("MainPage");
     }
+
+    public void ToLockLevel()
+    {
+        SceneManager.LoadScene("LoveLock_Test");
+    }
 }

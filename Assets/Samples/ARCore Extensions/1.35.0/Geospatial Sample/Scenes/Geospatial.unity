@@ -725,7 +725,7 @@ MonoBehaviour:
   MyLatitude: 40.612113
   MyLongitude: -74.004431
   MyAltitude: -24.41
-  CubePrefab: {fileID: 8724984999038764536, guid: ba10357c6655549498c427373ea49f80, type: 3}
+  CubePrefab: {fileID: 8724984999038764536, guid: bbf35c95ea66f7047aa64f3123455843, type: 3}
   SessionOrigin: {fileID: 691323908}
   Session: {fileID: 193207847}
   AnchorManager: {fileID: 691323910}

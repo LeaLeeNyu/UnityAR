@@ -47,8 +47,12 @@ namespace Google.XR.ARCoreExtensions.Samples.Geospatial
         public double MyLatitude;
         public double MyLongitude;
         public double MyAltitude;
+        public double ModelLatitude;
+        public double ModelLongitude;
+        public double ModelAltitude;
         private Quaternion MyQuaternion=new Quaternion(0.6f,0.6f,-0.4f,-0.4f);
         public GameObject CubePrefab;
+        public GameObject ModelPrefab;
 
         [Header("AR Components")]
 
@@ -537,7 +541,10 @@ namespace Google.XR.ARCoreExtensions.Samples.Geospatial
                 ResolveHistory();
 
                 ARGeospatialAnchor anchor = ARAnchorManagerExtensions.AddAnchor(AnchorManager, MyLatitude, MyLongitude, MyAltitude, MyQuaternion);
+                ARGeospatialAnchor anchorModel = ARAnchorManagerExtensions.AddAnchor(AnchorManager, ModelLatitude, ModelLongitude, ModelAltitude, MyQuaternion);
+
                 Instantiate(CubePrefab, anchor.transform);
+                Instantiate(ModelPrefab, anchorModel.transform);
             }
             else if (Input.touchCount > 0 && Input.GetTouch(0).phase == TouchPhase.Began
                 && !EventSystem.current.IsPointerOverGameObject(Input.GetTouch(0).fingerId))

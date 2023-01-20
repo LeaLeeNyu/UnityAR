@@ -12,9 +12,9 @@ public class PuzzleStartAnchor : MonoBehaviour
     [SerializeField] private ARAnchorManager anchorManager;
 
     [SerializeField] private AnchorDataSO anchorData;
-    [SerializeField] private AnchorDataSO moedelData;
+    //[SerializeField] private AnchorDataSO moedelData;
     [SerializeField] private GameObject anchorPrefab;
-    [SerializeField] private GameObject modelPrefab;
+    //[SerializeField] private GameObject modelPrefab;
 
     //Debug
     [SerializeField] private Text anchorDebug;

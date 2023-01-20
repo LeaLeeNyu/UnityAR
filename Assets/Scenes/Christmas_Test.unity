@@ -3215,7 +3215,7 @@ MonoBehaviour:
   anchorData: {fileID: 11400000, guid: 18962b64d551eb342942c2bd561fce30, type: 2}
   moedelData: {fileID: 11400000, guid: c47319f659690844db12f4a96c08e0c6, type: 2}
   anchorPrefab: {fileID: 8724984999038764536, guid: ba10357c6655549498c427373ea49f80, type: 3}
-  modelPrefab: {fileID: 5993820410158191029, guid: 965ce4272e062744abf043f5ec2055d6, type: 3}
+  modelPrefab: {fileID: 2380785351049275187, guid: 6068787dfb37067438eed4244cf2e35d, type: 3}
   anchorDebug: {fileID: 238302548}
 --- !u!4 &1236148765
 Transform:
@@ -3387,7 +3387,7 @@ MonoBehaviour:
   anchorDebug: {fileID: 238302548}
   anchorManager: {fileID: 924175756}
   anchorData: {fileID: 11400000, guid: 1110bea11b8d59745b76251f8af56cc3, type: 2}
-  anchorPrefab: {fileID: 5993820410158191029, guid: 965ce4272e062744abf043f5ec2055d6, type: 3}
+  anchorPrefab: {fileID: 2380785351049275187, guid: 6068787dfb37067438eed4244cf2e35d, type: 3}
   finishPuzzle: 0
 --- !u!4 &1300993474
 Transform:

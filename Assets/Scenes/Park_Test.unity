@@ -3387,7 +3387,7 @@ MonoBehaviour:
   anchorDebug: {fileID: 238302548}
   anchorManager: {fileID: 924175756}
   anchorData: {fileID: 11400000, guid: 1110bea11b8d59745b76251f8af56cc3, type: 2}
-  anchorPrefab: {fileID: 5993820410158191029, guid: 965ce4272e062744abf043f5ec2055d6, type: 3}
+  anchorPrefab: {fileID: 2321183844847691699, guid: 187d256a0f6122e47b385a5f545edbac, type: 3}
   finishPuzzle: 0
 --- !u!4 &1300993474
 Transform:
@@ -5463,6 +5463,18 @@ MonoBehaviour:
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
         m_MethodName: SetActive
         m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 724765618}
+        m_TargetAssemblyTypeName: PlaceModelOnPlane, Assembly-CSharp
+        m_MethodName: PlaceModel
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine

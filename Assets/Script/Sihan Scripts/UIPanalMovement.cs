@@ -18,7 +18,11 @@ public class UIPanalMovement : MonoBehaviour
 
     public void MoveUp()
     {
-        transform.LeanMoveY(transform.position.y + rectTransform.rect.height * canvasRectTransform.localScale.y, 1).setEaseInOutQuad();
+        if (rectTransform.position.y < 0)
+        {
+            transform.LeanMoveY(transform.position.y + rectTransform.rect.height * canvasRectTransform.localScale.y, 1).setEaseInOutQuad();
+        }
+       
     }
 
     public void MoveDown()

@@ -1054,7 +1054,7 @@ MonoBehaviour:
   markerTooltip: 
   markerType: 0
   marker2DAlign: 4
-  marker2DTexture: {fileID: 2800000, guid: cdd95eecf361e804093feb8473f239d9, type: 3}
+  marker2DTexture: {fileID: 2800000, guid: 073b3a53d5e1d8a43a623f97d57c665f, type: 3}
   marker3DPrefab: {fileID: 0}
   marker3DSizeType: 0
   maxPositionCount: 3
@@ -1172,8 +1172,8 @@ MonoBehaviour:
       minLimit: 1
     tags: []
     _enabled: 1
-    latitude: 40.7047442
-    longitude: -73.9951522
+    latitude: 40.7032674
+    longitude: -73.993413
     _scale: 1
     expand: 1
     align: 7
@@ -1185,7 +1185,7 @@ MonoBehaviour:
       width: 1
       height: 1
     _rotation: 0
-    _texture: {fileID: 2800000, guid: ab4ff29204770ea499a1f25609c589cb, type: 3}
+    _texture: {fileID: 2800000, guid: 25b488c221a79f044a992344af88bde0, type: 3}
   - label: ChristmasTree
     range:
       max: 20.999
@@ -1194,8 +1194,8 @@ MonoBehaviour:
       minLimit: 1
     tags: []
     _enabled: 1
-    latitude: 40.758498
-    longitude: -73.9788578
+    latitude: 40.7585277823998
+    longitude: -73.9788881275456
     _scale: 1
     expand: 1
     align: 7
@@ -1207,7 +1207,7 @@ MonoBehaviour:
       width: 1
       height: 1
     _rotation: 0
-    _texture: {fileID: 2800000, guid: ab4ff29204770ea499a1f25609c589cb, type: 3}
+    _texture: {fileID: 2800000, guid: 25b488c221a79f044a992344af88bde0, type: 3}
   - label: Park
     range:
       max: 20.999
@@ -1216,8 +1216,8 @@ MonoBehaviour:
       minLimit: 1
     tags: []
     _enabled: 1
-    latitude: 40.7540596
-    longitude: -73.9843275
+    latitude: 40.7540428872717
+    longitude: -73.9842572430844
     _scale: 1
     expand: 1
     align: 7
@@ -1229,9 +1229,9 @@ MonoBehaviour:
       width: 1
       height: 1
     _rotation: 0
-    _texture: {fileID: 2800000, guid: ab4ff29204770ea499a1f25609c589cb, type: 3}
+    _texture: {fileID: 2800000, guid: 25b488c221a79f044a992344af88bde0, type: 3}
   defaultScale: 1
-  defaultTexture: {fileID: 2800000, guid: ab4ff29204770ea499a1f25609c589cb, type: 3}
+  defaultTexture: {fileID: 2800000, guid: 25b488c221a79f044a992344af88bde0, type: 3}
   defaultAlign: 7
   allowAddMarkerByM: 1
 --- !u!212 &719803767

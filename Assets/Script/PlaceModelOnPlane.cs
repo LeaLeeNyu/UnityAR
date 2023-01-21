@@ -65,9 +65,10 @@ public class PlaceModelOnPlane : MonoBehaviour
             Instantiate(placedCube, transform.position, transform.rotation);
 
             Vector3 cameraPostition = new Vector3(Camera.main.transform.position.x,
-                                        transform.position.y,
+                                        -transform.position.y,
                                         Camera.main.transform.position.z);
             placedCube.transform.LookAt(cameraPostition);
+           // placedCube.transform.Rotate(0, 180, 0);
 
             useCursor = false;
         }

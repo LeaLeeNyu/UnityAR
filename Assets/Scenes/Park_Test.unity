@@ -3212,7 +3212,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   anchorManager: {fileID: 924175756}
-  anchorData: {fileID: 11400000, guid: 18962b64d551eb342942c2bd561fce30, type: 2}
+  anchorData: {fileID: 11400000, guid: 2af6663212de34b438bd637d8e1a4022, type: 2}
   anchorPrefab: {fileID: 8724984999038764536, guid: ba10357c6655549498c427373ea49f80, type: 3}
   anchorDebug: {fileID: 238302548}
 --- !u!4 &1236148765

@@ -3212,7 +3212,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   anchorManager: {fileID: 924175756}
-  anchorData: {fileID: 11400000, guid: 18962b64d551eb342942c2bd561fce30, type: 2}
+  anchorData: {fileID: 11400000, guid: 4908c5a5fa542f7449e6838ee37c4ce1, type: 2}
   anchorPrefab: {fileID: 8724984999038764536, guid: ba10357c6655549498c427373ea49f80, type: 3}
   anchorDebug: {fileID: 238302548}
 --- !u!4 &1236148765
@@ -4344,7 +4344,7 @@ Camera:
     width: 1
     height: 1
   near clip plane: 0.1
-  far clip plane: 20
+  far clip plane: 100
   field of view: 60
   orthographic: 0
   orthographic size: 5
@@ -5458,6 +5458,18 @@ MonoBehaviour:
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
         m_MethodName: SetActive
         m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 724765618}
+        m_TargetAssemblyTypeName: PlaceModelOnPlane, Assembly-CSharp
+        m_MethodName: PlaceModel
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine

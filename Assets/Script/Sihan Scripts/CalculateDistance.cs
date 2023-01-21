@@ -43,7 +43,7 @@ public class CalculateDistance : MonoBehaviour
             {
                 float distance = OnlineMapsUtils.DistanceBetweenPoints(userLocation, anchorCoordinates[i]).magnitude;
                 //debugText.text = distance.ToString();
-                if (distance < 0.005f)
+                if (distance < 0.01f)
                 {
                     //notifyUI[i].SetActive(true);
                     notifyUI[i].GetComponent<UIPanalMovement>().MoveDown();

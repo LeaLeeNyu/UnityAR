@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class GameManager : Singleton<GameManager>
+public class GameManager : MonoBehaviour
 {
     public void ToPhoto()
     {
@@ -27,7 +27,7 @@ public class GameManager : Singleton<GameManager>
 
     public void ToMainPage()
     {
-        SceneManager.LoadScene("MainPage");
+        SceneManager.LoadScene("HomePage");
     }
 
     public void ToLockLevel()

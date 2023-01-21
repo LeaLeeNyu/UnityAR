@@ -7,6 +7,7 @@ public class PlaceModelOnPlane : MonoBehaviour
     public ARRaycastManager raycastManager;
     //private GameObject[] animals;
     public GameObject placedCube;
+    private GameObject placedObject;
 
 
     public bool useCursor = true;
@@ -62,15 +63,8 @@ public class PlaceModelOnPlane : MonoBehaviour
     public void PlaceModel()
     {
         if (useCursor) {
-            Instantiate(placedCube, transform.position, transform.rotation);
-
-            Vector3 cameraPostition = new Vector3(Camera.main.transform.position.x,
-                                        -transform.position.y,
-                                        Camera.main.transform.position.z);
-            placedCube.transform.LookAt(cameraPostition);
-           // placedCube.transform.Rotate(0, 180, 0);
-
-            useCursor = false;
+            placedObject=Instantiate(placedCube, transform.position, transform.rotation);
+            useCursor = false;           
         }
        
     }

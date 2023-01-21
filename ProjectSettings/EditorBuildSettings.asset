@@ -11,18 +11,24 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/DemoScene.unity
     guid: c11ea6004cf32294d89ead2c95c19f5e
-  - enabled: 0
+  - enabled: 1
+    path: Assets/Scenes/Sihan Scenes/HomePage.unity
+    guid: 5d3f2df9b249da0478bdd4e392972c30
+  - enabled: 1
     path: Assets/Scenes/Sihan Scenes/Map.unity
     guid: ba3ab4afcd3f1c245913ddf8c500d7cc
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/LoveLock_Test.unity
     guid: 07e03cd647e992444a5eef55bf20187a
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/Park_Test.unity
     guid: e745065c2636a824b9bd372ef5418e3c
   - enabled: 1
     path: Assets/Scenes/Christmas_Test.unity
     guid: af7f7756aa8377049b08c5fb07f792e4
+  - enabled: 1
+    path: Assets/Scenes/Photo.unity
+    guid: b409f3c2e3c384346a4113252f939b54
   m_configObjects:
     UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: 0b4f4b28d703b024abe14d3ceee40d9a, type: 2}
     UnityEditor.XR.ARKit.ARKitSettings: {fileID: 11400000, guid: 1b3b5d46a18cfc04498c1ace4be1ef9e, type: 2}

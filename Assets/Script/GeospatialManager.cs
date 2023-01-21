@@ -116,6 +116,8 @@ public class GeospatialManager : Singleton<GeospatialManager>
     [SerializeField] private Text altitudeDebug;
     [SerializeField] private Text yawDebug;
     [SerializeField] private Text dotDebug;
+    [HideInInspector] public float dotParameter;
+    internal readonly object dotProduct;
 
     private void Start()
     {
@@ -441,6 +443,7 @@ public class GeospatialManager : Singleton<GeospatialManager>
 
     public void DebugDot(float dot)
     {
+        dotParameter = dot;
         dotDebug.text = "Dit Product:" + dot.ToString();
     }
 }

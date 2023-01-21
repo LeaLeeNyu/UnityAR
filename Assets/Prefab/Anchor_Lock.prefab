@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 554810544270535468}
   - component: {fileID: 154732481905880264}
   - component: {fileID: 6913061380307075026}
-  - component: {fileID: 5144720872503960962}
+  - component: {fileID: 8877308712967249312}
   m_Layer: 0
   m_Name: Anchor_Lock
   m_TagString: FirstAnchor
@@ -228,7 +228,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 88e034f2ce696d940b315863a7fc4282, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &5144720872503960962
+--- !u!114 &8877308712967249312
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -237,6 +237,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 8724984999038764536}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: aade50f4e12ddb64b918f4d310e59749, type: 3}
+  m_Script: {fileID: 11500000, guid: 1adffb6fde9e08944ab79508535f4958, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  dotProduct: 0

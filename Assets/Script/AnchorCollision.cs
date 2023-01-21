@@ -8,16 +8,16 @@ using UnityEngine.UI;
 
 public class AnchorCollision: MonoBehaviour
 {
-    Renderer CubeRenderer;
-    Vector3 PlayerForwardVector;
-    Vector3 CubeForwardVector;
-    bool _inRange = false;
+    protected Renderer CubeRenderer;
+    protected Vector3 PlayerForwardVector;
+    protected Vector3 CubeForwardVector;
+    protected bool _inRange = false;
     bool _run = false;
     public bool IsOverlapping { get { return isOverlapping(); } }
 
     // Use dot product to decide whether the player enter the range
-    private float dotProduct;
-    private GameObject player;
+    [HideInInspector]public float dotProduct;
+    protected GameObject player;
 
     //Debug & UI
     private Text anchorDebug;
@@ -61,7 +61,7 @@ public class AnchorCollision: MonoBehaviour
         }
     }
 
-    private bool isOverlapping()
+    protected virtual bool isOverlapping()
     {
         if(player != null)
         {

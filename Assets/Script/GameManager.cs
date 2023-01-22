@@ -44,4 +44,23 @@ public class GameManager : MonoBehaviour
     {
         SceneManager.LoadScene("Christmas_Test");
     }
+
+    public void ToLockAlbum()
+    {
+        SceneManager.LoadScene("PhotoDetail_Bridge");
+    }
+    public void ToParkAlbum()
+    {
+        SceneManager.LoadScene("PhotoDetail_Park");
+    }
+
+    public void ToChristmasAlbum()
+    {
+        SceneManager.LoadScene("PhotoDetail_Tree");
+    }
+
+    public void ToFinalAlbum()
+    {
+        SceneManager.LoadScene("PhotoDetail_Final");
+    }
 }

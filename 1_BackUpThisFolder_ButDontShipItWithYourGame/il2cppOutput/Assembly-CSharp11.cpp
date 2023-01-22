@@ -11024,8 +11024,8 @@ IL_004e:
 		V_2 = L_15;
 		float L_16;
 		L_16 = Vector2_get_magnitude_m5C59B4056420AEFDB291AD0914A3F675330A75CE_inline((&V_2), NULL);
-		// if (distance < 0.01f)
-		if ((!(((float)L_16) < ((float)(0.00999999978f)))))
+		// if (distance < 0.02f)
+		if ((!(((float)L_16) < ((float)(0.0199999996f)))))
 		{
 			goto IL_008e;
 		}

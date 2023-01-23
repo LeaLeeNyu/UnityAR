@@ -42,7 +42,7 @@ public class AnchorCollision: MonoBehaviour
         if (other.tag == "Player" && gameObject.transform.position != Vector3.zero)
         {
             //player gets into collider, cube turns green
-            CubeRenderer.material.color = new Color(0, 255, 0);
+            CubeRenderer.material.color = new Color(0, 255, 0, 0);
             //PlayerForwardVector = other.transform.forward;
             CubeForwardVector = this.transform.forward;
             _inRange = true;
@@ -55,7 +55,7 @@ public class AnchorCollision: MonoBehaviour
     {
         if (other.tag == "Player")
         {    //player gets out of collider, cube turns red
-            CubeRenderer.material.color = new Color(255, 0, 0);
+            CubeRenderer.material.color = new Color(255, 0, 0, 0);
             _inRange = false;
             anchorDebug.text = "Player Exit";
         }
@@ -71,7 +71,7 @@ public class AnchorCollision: MonoBehaviour
             //if the angle between two vectors is less than 30 degrees, cube turns white
             if (_inRange && dotProduct > 0.99)
             {
-                CubeRenderer.material.color = new Color(255, 255, 255);
+                CubeRenderer.material.color = new Color(255, 255, 255, 0);
                 return true;
             }
             else
